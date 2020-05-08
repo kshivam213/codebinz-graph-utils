@@ -1,4 +1,4 @@
-package com.github.kshivam213;
+package com.gutils;
 
 public class Edge<T>{
     private boolean isDirected = false;

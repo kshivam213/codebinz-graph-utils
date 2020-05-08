@@ -1,10 +1,10 @@
-package com.github.kshivam213.alg.shortestpath;
+package com.gutils.algorithm.shortestpath;
 
 import java.util.List;
 import java.util.Map;
 
-import com.github.kshivam213.Graph;
-import com.github.kshivam213.Vertex;
+import com.gutils.Graph;
+import com.gutils.Vertex;
 
 
 public interface ShortestPathAlgorithm<T> {

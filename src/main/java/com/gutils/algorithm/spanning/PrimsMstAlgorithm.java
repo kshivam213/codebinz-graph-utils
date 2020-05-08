@@ -1,14 +1,14 @@
-package com.github.kshivam213.alg.spanning;
+package com.gutils.algorithm.spanning;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import com.github.kshivam213.BinaryMinHeap;
-import com.github.kshivam213.Edge;
-import com.github.kshivam213.Graph;
-import com.github.kshivam213.Vertex;
+import com.gutils.Edge;
+import com.gutils.Graph;
+import com.gutils.MinHeap;
+import com.gutils.Vertex;
 
 public class PrimsMstAlgorithm<T> implements SpanningTreeAlgorithm<T> {
 
@@ -16,7 +16,7 @@ public class PrimsMstAlgorithm<T> implements SpanningTreeAlgorithm<T> {
 	@Override
 	public List<Edge<T>> findMst(Graph<T> graph) {
 		
-		BinaryMinHeap<Vertex<T>> minHeap = new BinaryMinHeap<>();
+		MinHeap<Vertex<T>> minHeap = new MinHeap<>();
 		
 		Map<Vertex<T>, Edge<T>> vertexToEdge = new HashMap<>();
 		

@@ -1,11 +1,11 @@
-package com.github.kshivam213;
+package com.gutils;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class BinaryMinHeap<T> {
+public class MinHeap<T> {
 
 	private Map<T, Integer> nodePosition = new HashMap<>();
 	private List<Node> allNodes = new ArrayList<>();
@@ -187,7 +187,7 @@ public class BinaryMinHeap<T> {
     }
 
     public static void main(String args[]){
-        BinaryMinHeap<String> heap = new BinaryMinHeap<String>();
+        MinHeap<String> heap = new MinHeap<String>();
         heap.add(3, "Tushar");
         heap.add(4, "Ani");
         heap.add(8, "Vijay");

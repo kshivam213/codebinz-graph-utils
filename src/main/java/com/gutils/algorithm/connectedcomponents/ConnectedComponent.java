@@ -1,9 +1,9 @@
-package com.github.kshivam213.alg.connectedcomponents;
+package com.gutils.algorithm.connectedcomponents;
 
 import java.util.List;
 
-import com.github.kshivam213.Graph;
-import com.github.kshivam213.Vertex;
+import com.gutils.Graph;
+import com.gutils.Vertex;
 
 public interface ConnectedComponent<T> {
 	

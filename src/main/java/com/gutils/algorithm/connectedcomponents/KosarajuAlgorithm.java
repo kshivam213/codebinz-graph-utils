@@ -1,4 +1,4 @@
-package com.github.kshivam213.alg.connectedcomponents;
+package com.gutils.algorithm.connectedcomponents;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -7,9 +7,9 @@ import java.util.Map;
 import java.util.Set;
 import java.util.Stack;
 
-import com.github.kshivam213.Edge;
-import com.github.kshivam213.Graph;
-import com.github.kshivam213.Vertex;
+import com.gutils.Edge;
+import com.gutils.Graph;
+import com.gutils.Vertex;
 
 public class KosarajuAlgorithm<T> implements ConnectedComponent<T>{
 

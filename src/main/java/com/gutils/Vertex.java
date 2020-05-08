@@ -1,4 +1,4 @@
-package com.github.kshivam213;
+package com.gutils;
 
 import java.util.ArrayList;
 import java.util.List;

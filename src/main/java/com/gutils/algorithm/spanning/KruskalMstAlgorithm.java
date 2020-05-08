@@ -1,4 +1,4 @@
-package com.github.kshivam213.alg.spanning;
+package com.gutils.algorithm.spanning;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -7,8 +7,8 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import com.github.kshivam213.Edge;
-import com.github.kshivam213.Graph;
+import com.gutils.Edge;
+import com.gutils.Graph;
 
 public class KruskalMstAlgorithm<T> implements SpanningTreeAlgorithm<T> {
 

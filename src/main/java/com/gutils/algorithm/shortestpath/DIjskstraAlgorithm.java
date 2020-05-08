@@ -1,14 +1,14 @@
-package com.github.kshivam213.alg.shortestpath;
+package com.gutils.algorithm.shortestpath;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import com.github.kshivam213.BinaryMinHeap;
-import com.github.kshivam213.Edge;
-import com.github.kshivam213.Graph;
-import com.github.kshivam213.Vertex;
+import com.gutils.Edge;
+import com.gutils.Graph;
+import com.gutils.MinHeap;
+import com.gutils.Vertex;
 
 public class DIjskstraAlgorithm<T> implements ShortestPathAlgorithm<T>{
 
@@ -19,7 +19,7 @@ public class DIjskstraAlgorithm<T> implements ShortestPathAlgorithm<T>{
 	@Override
 	public Map<Vertex<T>, Integer> shortestDistanceToAllVertexFromSource(Graph<T> graph, Vertex<T> sourceVertex) {
 
-		BinaryMinHeap<Vertex<T>> minHeap = new BinaryMinHeap<>();
+		MinHeap<Vertex<T>> minHeap = new MinHeap<>();
 		
 		for (Vertex<T> vertex : graph.getAllVertex()) {
 			minHeap.add(Integer.MAX_VALUE, vertex);
@@ -33,7 +33,7 @@ public class DIjskstraAlgorithm<T> implements ShortestPathAlgorithm<T>{
 		
 		while (!minHeap.empty()) {
 			
-			BinaryMinHeap<Vertex<T>>.Node heapNode = minHeap.extractMinNode();
+			MinHeap<Vertex<T>>.Node heapNode = minHeap.extractMinNode();
 			Vertex<T> current = heapNode.getKey();
 
 			distance.put(current, heapNode.getWeight());
