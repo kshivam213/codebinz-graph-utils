@@ -1,14 +1,14 @@
-package org.cgraph.alg.spanning;
+package com.github.kshivam213.alg.spanning;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import org.cgraph.BinaryMinHeap;
-import org.cgraph.Edge;
-import org.cgraph.Graph;
-import org.cgraph.Vertex;
+import com.github.kshivam213.BinaryMinHeap;
+import com.github.kshivam213.Edge;
+import com.github.kshivam213.Graph;
+import com.github.kshivam213.Vertex;
 
 public class PrimsMstAlgorithm<T> implements SpanningTreeAlgorithm<T> {
 

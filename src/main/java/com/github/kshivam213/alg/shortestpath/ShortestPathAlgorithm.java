@@ -1,10 +1,10 @@
-package org.cgraph.alg.shortestpath;
+package com.github.kshivam213.alg.shortestpath;
 
 import java.util.List;
 import java.util.Map;
 
-import org.cgraph.Graph;
-import org.cgraph.Vertex;
+import com.github.kshivam213.Graph;
+import com.github.kshivam213.Vertex;
 
 
 public interface ShortestPathAlgorithm<T> {

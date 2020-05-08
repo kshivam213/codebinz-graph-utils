@@ -1,4 +1,4 @@
-package org.cgraph.alg.sort;
+package com.github.kshivam213.alg.sort;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -6,8 +6,8 @@ import java.util.List;
 import java.util.Map;
 import java.util.Stack;
 
-import org.cgraph.Graph;
-import org.cgraph.Vertex;
+import com.github.kshivam213.Graph;
+import com.github.kshivam213.Vertex;
 
 public class TopologicalSort<T> implements VisitSorted<T> {
 

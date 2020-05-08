@@ -1,4 +1,4 @@
-package org.cgraph;
+package com.github.kshivam213;
 
 public class Edge<T>{
     private boolean isDirected = false;

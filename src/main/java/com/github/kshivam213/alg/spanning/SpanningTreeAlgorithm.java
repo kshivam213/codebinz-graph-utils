@@ -1,9 +1,9 @@
-package org.cgraph.alg.spanning;
+package com.github.kshivam213.alg.spanning;
 
 import java.util.List;
 
-import org.cgraph.Edge;
-import org.cgraph.Graph;
+import com.github.kshivam213.Edge;
+import com.github.kshivam213.Graph;
 
 public interface SpanningTreeAlgorithm<T> {
 	

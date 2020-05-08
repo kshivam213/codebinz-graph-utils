@@ -1,9 +1,9 @@
-package org.cgraph.alg.sort;
+package com.github.kshivam213.alg.sort;
 
 import java.util.List;
 
-import org.cgraph.Graph;
-import org.cgraph.Vertex;
+import com.github.kshivam213.Graph;
+import com.github.kshivam213.Vertex;
 
 public interface VisitSorted<T> {
 	
